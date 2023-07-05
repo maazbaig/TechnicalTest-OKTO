@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainUI.uss?fileID=7433441132597879392&amp;guid=1ba2d19ba1e20034d9d2dbc501af38f5&amp;type=3#MainUI" />
+    <ui:VisualElement name="UI-Container" style="flex-grow: 0; justify-content: flex-end; position: absolute; bottom: 0; height: 75px; top: auto; align-items: center; flex-basis: auto; left: auto; width: 100%;">
+        <ui:VisualElement name="ButtonsList" class="horizontal-list" style="flex-direction: row;">
+            <ui:Button display-tooltip-when-elided="true" name="Home-Button" class="button">
+                <ui:VisualElement name="button-image" class="button-image" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="User-Button" class="button">
+                <ui:VisualElement name="button-image" class="button-image" style="background-image: url(&apos;project://database/Assets/Sprites/user.png?fileID=2800000&amp;guid=ddcd7e949a038664eb66110e2c87e707&amp;type=3#user&apos;);" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="Shop-Button" class="button">
+                <ui:VisualElement name="button-image" class="button-image" style="background-image: url(&apos;project://database/Assets/Sprites/shopping-cart.png?fileID=2800000&amp;guid=c59f77b2fcd6f994d9619c1d6ceea1f2&amp;type=3#shopping-cart&apos;);" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="Side-Container" style="align-items: flex-end; position: absolute; height: 100px; width: 50px; right: 0; bottom: 100px;">
+            <ui:Button display-tooltip-when-elided="true" name="Like-Button" class="special-button" />
+            <ui:Button display-tooltip-when-elided="true" name="Share-Button" class="special-button" style="background-image: url(&apos;project://database/Assets/Sprites/next.png?fileID=2800000&amp;guid=dada10de162128f469d34bc5cc4bc6e4&amp;type=3#next&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

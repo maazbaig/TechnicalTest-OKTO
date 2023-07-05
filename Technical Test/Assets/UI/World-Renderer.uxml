@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/WorldRendererUI.uss?fileID=7433441132597879392&amp;guid=cf36fbed98e87d44f930eefddb628e6a&amp;type=3#WorldRendererUI" />
+    <ui:VisualElement name="Main-Container" style="flex-grow: 1;">
+        <ui:VisualElement name="Content" style="flex-grow: 1; top: 0; height: 100%;">
+            <ui:VisualElement name="Page" class="page" style="background-color: rgba(133, 200, 245, 255);" />
+            <ui:VisualElement name="Page" class="page" style="background-image: url(&apos;project://database/Assets/RenderTexture/Page2Camera.renderTexture?fileID=8400000&amp;guid=c6bd70a364a0709488008bd84b282f83&amp;type=2#Page2Camera&apos;); background-color: rgba(179, 148, 255, 255);" />
+            <ui:VisualElement name="Page" class="page" style="background-image: url(&apos;project://database/Assets/RenderTexture/Page3Camera.renderTexture?fileID=8400000&amp;guid=f5c59f8f8fad8f84a9296ba49c6ca6b2&amp;type=2#Page3Camera&apos;); background-color: rgba(158, 255, 191, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,20 @@
+.page {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/RenderTexture/Page1Camera.renderTexture?fileID=8400000&guid=8e02d7bb54416074ca0d059590824a49&type=2#Page1Camera');
+    height: 100%;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    visibility: visible;
+    overflow: visible;
+    display: flex;
+    flex-basis: auto;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
